@@ -34,3 +34,20 @@
 #      * Not required *
 
 # ===============================================================================
+
+
+
+# note: For getting Devise to play nicely with Turbo Drive, be sure you read this
+# section of the Devise README. You’ll need to install the Responders gem. Make
+# sure that in addition to adding the gem to your Gemfile that you also run the
+# install generator. 
+#############################################################################
+# You’ll also need to specify delete requests on your
+# links/buttons for signing the user out. 
+#############################################################################
+# More detailed information can be found in Devise’s Guide for Hotwire Turbo 
+# Integration.
+
+
+# Copy Devise views user ?
+# Specify delete requests on links/buttons for signing the user out.
